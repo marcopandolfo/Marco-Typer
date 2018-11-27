@@ -3,7 +3,6 @@
     height: 150px;
     border: 3px solid black;
 }
-
 .frase {
     font-size: 20px;
     text-align: left;
@@ -19,4 +18,11 @@
 }
 .borda-vermelha {
     border: 3px solid red;
+}
+.placar {
+    display: none;
+}
+
+body {
+    overflow: scroll;
 }
