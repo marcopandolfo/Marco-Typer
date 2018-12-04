@@ -8,6 +8,21 @@ $(document).ready(function() {
     inicializaMarcadores();
     $("#botao-reiniciar").click(reiniciaJogo);
     atualizaPlacar();
+
+    $("#usuarios").selectize({
+        create: true,
+        sortField: 'text'
+    });
+
+    $('.tooltip').tooltipster({
+        trigger: "custom"
+    });
+
+    $(".botao1").tooltipster();
+    $(".botao2").tooltipster();
+    $(".botao3").tooltipster();
+    $(".botao4").tooltipster();
+
 });
 
 function atualizaTempoInicial(tempo) {
